@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shumani Painting</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 5px 0;
+      font-size: 1.1rem;
+    }
+    /* Slider Section */
+    .slider {
+      position: relative;
+      overflow: hidden;
+      height: 300px;
+    }
+    .slides {
+      display: flex;
+      width: 300%;
+      animation: slide 12s infinite;
+    }
+    .slides img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    @keyframes slide {
+      0%   { transform: translateX(0%); }
+      33%  { transform: translateX(-100%); }
+      66%  { transform: translateX(-200%); }
+      100% { transform: translateX(0%); }
+    }
+    /* Sections */
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    section h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #2c3e50;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .service-card {
+      background: yellow;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <div class="logo-container">
+    <img src="logo.png" alt="Shumani Painting Logo">
+  </div>
+  <div class="header-text">
+    <p>Professional Painting Services for Homes & Businesses</p>
+  </div>
+</header>
+
+
+
+  <!-- Slider -->
+  <div class="slider">
+    <div class="slides">
+      <img src="sh.jpeg" alt="Painting Work 1">
+      <img src="um.jpeg" alt="Painting Work 2">
+      <img src="ani.jpeg" alt="Painting Work 3">
+	   <img src="ah.jpeg" alt="Painting Work 3">
+	    <img src="am.jpeg" alt="Painting Work 3">
+		 <img src="pfa.jpeg" alt="Painting Work 3">
+    </div>
+  </div>
+
+  <!-- About Section -->
+    <!-- About Section -->
+    <!-- About Section -->
+  <section>
+    <h2>About Us</h2>
+    <p>At Shumani Painting, we bring color to life. With years of experience, our team provides quality painting services that transform homes and offices into beautiful spaces.</p>
+
+    <div class="about-cards">
+      <div class="about-card">
+        <h3>Our Mission</h3>
+        <p>To deliver professional, reliable, and affordable painting services that enhance the beauty and value of every property we work on.</p>
+      </div>
+
+      <div class="about-card">
+        <h3>Our Vision</h3>
+        <p>To become Limpopo’s most trusted painting company, known for excellence, innovation, and customer satisfaction.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Services Section -->
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Residential Painting</h3>
+        <p>Brighten up your home with our expert interior and exterior painting services.</p>
+      </div>
+      <div class="service-card">
+        <h3>Commercial Painting</h3>
+        <p>We handle office spaces, shops, and buildings with professionalism and care.</p>
+      </div>
+      <div class="service-card">
+        <h3>Waterproofing</h3>
+        <p>Protect your walls with high-quality waterproof coatings that last.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section>
+    <h2>Contact Us</h2>
+    <p>Email: shumanipainting@gmail.com</p>
+    <p>Phone: +27 79 246 5521</p>
+        <p>Location: 
+      <a href="https://maps.app.goo.gl/nMXXAMSLcAns818UA" target="_blank">
+        Polokwane, Limpopo
+      </a>
+    </p>
+
+  </section>
+  <footer>
+   <p></p>
+    <div style="margin-top:10px;">
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/profile.php?id=100082909553789" target="_blank" style="margin:0 10px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" 
+             alt="Facebook" width="30" style="vertical-align:middle;">
+      </a>
+      <!-- TikTok -->
+      <a href="https://www.tiktok.com/@shumani_painting1?_t=ZS-8yyM8e1ifVh&_r=1" target="_blank" style="margin:0 10px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046120.png" 
+             alt="TikTok" width="30" style="vertical-align:middle;">
+      </a>
+    </div>
+  </footer>
+
+  <footer>
+    <p>&copy; 2025 Shumani Painting | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
+
